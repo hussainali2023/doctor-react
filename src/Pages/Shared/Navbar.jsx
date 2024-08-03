@@ -24,21 +24,25 @@ const Navbar = () => {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             <li><Link to={"/"}>Home</Link></li>
-                            <li><Link to={"/login"}>Login</Link></li>
-                            <li><Link to={"/register"}>Register</Link></li>
+                            <li><Link to={"/about"}>About</Link></li>
+                            <li><Link to={"/services"}>Services</Link></li>
+                            <li><Link to={"/blog"}>Blog</Link></li>
+                            <li><Link to={"/contact"}>Contact</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <Link to={"/" }className="btn btn-ghost text-xl">daisyUI</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link to={"/"}>Home</Link></li>
-                        <li><Link to={"/login"}>Login</Link></li>
-                        <li><Link to={"/register"}>Register</Link></li>
+                    <li><Link to={"/"}>Home</Link></li>
+                            <li><Link to={"/about"}>About</Link></li>
+                            <li><Link to={"/services"}>Services</Link></li>
+                            <li><Link to={"/blog"}>Blog</Link></li>
+                            <li><Link to={"/contact"}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <Link to={"/login"} className="btn">Login</Link>
                 </div>
             </div>
         </div>
