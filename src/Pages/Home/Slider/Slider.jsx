@@ -49,9 +49,9 @@ const Slider = () => {
         <div>
             <div className="carousel w-full">
                 {
-                    bannerImages.map(item => (
-                        <>
-                            <div id={item.banId} className="carousel-item relative w-full">
+                    bannerImages.map((item) => (
+                        
+                            <div key={item.banId} id={item.banId} className="carousel-item relative w-full">
                                 <img
                                 
                                     src={item.banImage}
@@ -61,7 +61,7 @@ const Slider = () => {
                                     <a href={item.nextSlide} className="btn btn-circle">❯</a>
                                 </div>
                             </div>
-                        </>
+                        
                     ))
                 }
             </div>
