@@ -1,7 +1,11 @@
+import Services from "./Services/Services";
+import Slider from "./Slider/Slider";
+
 const Home = () => {
     return (
         <div>
-            <h1>This is Home Page</h1>
+            <Slider/>
+            <Services/>
         </div>
     );
 };

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
     return (
         <div className="min-h-screen mt-16">
-            <div className="  w-1/2 mx-auto bg-gray-50 px-8 pt-4 pb-16">
+            <div className="  w-1/2 mx-auto bg-gray-50 px-8 pt-4 pb-16 rounded-xl shadow-xl">
             <div className=" my-8">
                 <h1 className=" text-5xl text-center font-extrabold">Login</h1>
             </div>

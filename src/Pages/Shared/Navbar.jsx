@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import Logo from "../../assets/logo.svg";
 
 const Navbar = () => {
     return (
-        <div>
+        <div className=" py-6">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -30,7 +31,7 @@ const Navbar = () => {
                             <li><Link to={"/contact"}>Contact</Link></li>
                         </ul>
                     </div>
-                    <Link to={"/" }className="btn btn-ghost text-xl">daisyUI</Link>
+                    <Link to={"/" }className="btn btn-ghost text-xl"><img className=" w-3/4" src={Logo} alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
